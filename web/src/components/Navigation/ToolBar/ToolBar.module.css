@@ -1,5 +1,5 @@
 .Toolbar {
-    height: 56px;
+    height:70px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -11,17 +11,22 @@
     padding: 0 20px;
     box-sizing: border-box;
     z-index: 90;
-    font-family:'Roboto-Black';
     color:white;
+    align-items: center;
 }
 
 .Toolbar nav {
     height: 100%;
-    width: 70%;
+    width: 60%;
     text-align: center;
-    margin-right: 16%
+    margin-right: 16%;
+    position: relative;
+    right: 5%;
 }
 
+.Logo {
+    height: 80%;
+}
 
 @media (max-width: 499px) {
     .DesktopOnly {

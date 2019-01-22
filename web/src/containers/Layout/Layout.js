@@ -1,6 +1,9 @@
 import React,{Component} from 'react'
-import ToolBar from '../../components/Navigation/ToolBar/ToolBar'
+import ToolBar from '../../components/Navigation/ToolBar/ToolBar';
 
+/**
+ * *statefull component include the menu
+ */
 class Layout extends Component{
     state={
         pageClass:0

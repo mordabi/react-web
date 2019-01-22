@@ -1,4 +1,16 @@
 .Logo{
-    height: 10%;
-    width: 20%
+    height: 50px;
+    padding:6px;
+    position: relative;
+    bottom:6px;
+}
+.Logo img {
+    height: 100%;
+     
+}
+.Logo b{
+    font-size: 200%;
+    margin:5px;
+    position: relative;
+    top:5px ;
 }

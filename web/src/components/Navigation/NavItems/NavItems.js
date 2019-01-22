@@ -1,9 +1,12 @@
 import React from 'react';
 import NavItem from './NavItem/NavItem'
 import Style from './NavItems.module.css';
-
-const Items = [ 'NightLife','Features','pricing','pricing','contact us','Get Demo'];
-const active =false;
+/**
+ * items array 
+ * represtnts all items in navbar 
+ * ? could be statefull check if needed
+ */
+const Items = [ 'NIGHTLIFE','FEATURES','PRICING','CONTACT US','GET DEMO'];
 const navItems = (props)=>{
     const Nav =Items.map((item,index)=>{
 

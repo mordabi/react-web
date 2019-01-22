@@ -1,24 +1,21 @@
 .navItem{
-    padding :5px 4% ;
+    padding: 10px;
+    font-size: 110%;
+    
 }
 .navItem a{
     text-decoration:none;
     color:white;
-    padding: 5px;
+    padding: 4px;
 
 }
 .navItem a.active{
-    border:1px solid white;
-    border-radius: 10px;
+    border:2px solid white;
+    border-radius: 20px;
 }
 .navItem a.unactive{
     text-decoration: none;
 }
-/* .navItem:active{
-    text-decoration:none;
-    color:white;
-    border:1px solid white;
-} */
 .navItem a:hover
 {
     text-decoration: none;

@@ -3,6 +3,7 @@ import Style from './ToolBar.module.css';
 import NavItems from '../NavItems/NavItems'
 import Logo from "../../UI/Logo/Logo"
 
+/** include the nav items and the logo*/
 const toolBar = (props)=>{
   
     return (
