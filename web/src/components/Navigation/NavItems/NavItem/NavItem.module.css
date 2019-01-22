@@ -1,0 +1,32 @@
+.navItem{
+    padding :5px 4% ;
+}
+.navItem a{
+    text-decoration:none;
+    color:white;
+    padding: 5px;
+
+}
+.navItem a.active{
+    border:1px solid white;
+    border-radius: 10px;
+}
+.navItem a.unactive{
+    text-decoration: none;
+}
+/* .navItem:active{
+    text-decoration:none;
+    color:white;
+    border:1px solid white;
+} */
+.navItem a:hover
+{
+    text-decoration: none;
+    color:white;
+    border-bottom: 2px solid rgb(151, 199, 253);
+    
+}
+.navItem a:visited,.navItem a:link{
+    color: white;
+    text-decoration: none;
+}
