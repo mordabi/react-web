@@ -5,11 +5,12 @@ import BackGround from './assets/Resources/background_image.png'
 import Layout from './containers/Layout/Layout'
 
 /**
- * ! remove the css from App and remove to StartPart 
- * 
+ * ! remove the css from App and append to StartPart 
+ * * background to demonstration  
  */
 var sectionStyle = {
   width: "100%",
+  height:"670px",
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: 'cover',
