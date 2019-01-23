@@ -1,4 +1,4 @@
-import Logo from "../../../assets/Resources/map/bar_pin.png";
+import Logo from "../../../assets/Resources/menu-icon.png";
 import React from 'react';
 import Style from './Logo.module.css';
 /**
@@ -8,7 +8,6 @@ import Style from './Logo.module.css';
 const logo =(props)=>(
         <div className={Style.Logo}>
             <img src={Logo}/>
-            <b>tizz.</b>
         </div>
         );
 

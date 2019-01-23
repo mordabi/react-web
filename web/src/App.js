@@ -1,21 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import BackGround from './assets/Resources/background_image.png'
-import Layout from './containers/Layout/Layout'
+import Layout from './containers/Layout/Layout';
+import LNPage from './containers/LifeNightPage/LNPage';
 
 /**
  * ! remove the css from App and append to StartPart 
  * * background to demonstration  
  */
-var sectionStyle = {
-  width: "100%",
-  height:"670px",
-  backgroundPosition: "center",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: 'cover',
-  backgroundImage:`url(${BackGround})`
-};
+
 
 /**
  * App class: holds the the page 
@@ -26,8 +19,10 @@ class App extends Component {
   
   render() {
     return (
-      <div className="App" style={sectionStyle}>
-        <Layout/>
+      <div className="App">
+        <Layout>
+          <LNPage/>
+        </Layout>
       </div>
     );
   }

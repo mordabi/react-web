@@ -1,0 +1,13 @@
+.Button{
+    background-color: #fd5a7d;
+    color: #ffff;
+    border-radius: 50px;
+    border: transparent;
+    padding: 15px 60px;
+    
+    
+}
+.Button :first-child{
+    text-align: center;
+
+}
