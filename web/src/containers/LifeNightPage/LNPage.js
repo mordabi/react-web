@@ -17,7 +17,7 @@ class LNPage extends Component{
 
     };
     /**
-     * * scroll 5px every itaretion
+     * * scroll 4px every itaretion
      * * and clear the Interval when scroll the relavant height 
      */
     scrollStep=()=> {
