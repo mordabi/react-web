@@ -7,7 +7,7 @@ import Style from './Logo.module.css';
 
 const logo =(props)=>(
         <div className={Style.Logo}>
-            <img src={Logo}/>
+            <img src={Logo} alt='Logo'/>
         </div>
         );
 

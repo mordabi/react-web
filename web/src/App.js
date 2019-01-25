@@ -4,16 +4,12 @@ import './App.css';
 import Layout from './containers/Layout/Layout';
 import LNPage from './containers/LifeNightPage/LNPage';
 
-/**
- * ! remove the css from App and append to StartPart 
- * * background to demonstration  
- */
 
 
 /**
- * App class: holds the the page 
- * call the page manager and layout
- * TODO: append pagemanager
+ * * App class: holds the the page 
+ * * call the page manager and layout
+ * ? create file of const like scrollspeed
  */
 class App extends Component {
   
@@ -21,7 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <Layout>
-          <LNPage/>
+          <LNPage scrollspeed={4}/>
         </Layout>
       </div>
     );
