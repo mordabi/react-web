@@ -1,0 +1,47 @@
+.Bar img{
+    height:100%;
+    width: 100%;
+    transition: width 0.7s,height 0.7s;
+}
+.Bar{
+    width: 20%;
+    height: 200px;
+    margin: 0 2%;
+    font-size:80%;
+    text-align: start;
+    /* font-family: 'OpenSans-Bold'; */
+    position: relative;
+}
+.Bar .title{
+    position: absolute;
+    bottom: -4%;
+    left: 5%;
+    line-height: 35%;
+}
+.title p[id='address']{
+    opacity: 0.5;
+    font-size: 12px;
+}
+.Bar .Stars{
+    position: absolute;
+    bottom:-3%;
+    right:0;
+    
+}
+.Bar img:hover{
+    z-index: 200;
+    width: 110%;
+    height: 110%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size:cover; 
+    
+}
+
+@media (max-width:800px){
+    .Bar{
+        height: 120px;
+        font-size: 60%;
+    }
+    
+
+}

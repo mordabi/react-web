@@ -5,7 +5,6 @@ import Layout from './containers/Layout/Layout';
 import LNPage from './containers/LifeNightPage/LNPage';
 
 
-
 /**
  * * App class: holds the the page 
  * * call the page manager and layout
@@ -17,7 +16,7 @@ class App extends Component {
     return (
       <div className="App">
         <Layout>
-          <LNPage scrollspeed={4}/>
+          <LNPage scrollspeed={10}/>
         </Layout>
       </div>
     );

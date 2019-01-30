@@ -1,12 +1,12 @@
 .navItem{
-    padding: 10px;
+    margin-top:1%;
     font-size: 110%;
     
 }
 .navItem a{
     text-decoration:none;
     color:white;
-    padding: 4px;
+    padding: 8% 15px;
 
 }
 .navItem a.active{

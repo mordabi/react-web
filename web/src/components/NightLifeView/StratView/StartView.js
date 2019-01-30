@@ -10,7 +10,7 @@ import Button from '../../Tools/Button/Button'
  */
 const startView=(props)=>{
     return <div ref={props.refProp} className={Style.startView} style={{backgroundImage:`url(${BackGround})`}}>
-    <h1>Find your match.Chat.<br/> 
+    <h1>Find your match. Chat.<br/> 
         <span >Start Dating.</span>
     </h1>
     <div className={Style.Button}>
