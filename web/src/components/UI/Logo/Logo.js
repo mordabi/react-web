@@ -6,7 +6,7 @@ import Style from './Logo.module.css';
  */
 
 const logo =(props)=>(
-        <div className={Style.Logo}>
+        <div className={Style.Logo} onClick={props.clicked}>
             <img src={Logo} alt='Logo'/>
         </div>
         );

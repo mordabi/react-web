@@ -1,0 +1,11 @@
+.Stat{
+    text-align: center;
+}
+.Stat p{
+opacity:0.6; 
+font-size: 25px;
+}
+.Stat h1{
+    font-size: 450%;
+    
+}

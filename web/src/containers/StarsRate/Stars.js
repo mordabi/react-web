@@ -28,7 +28,7 @@ class Rating extends React.PureComponent {
       
       for (let i=0; i<5; i++) {
         markup.push(
-          <RatingStar rating={i+1} isSet={i<this.state.rating} updateRating={this.updateRating} />
+          <RatingStar key={i} rating={i+1} isSet={i<this.state.rating} updateRating={this.updateRating} />
         );  
       }
       

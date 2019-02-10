@@ -27,9 +27,13 @@ const mobileView=(props)=>{
 
        return <Image key={index} store={PhoneImage.store} src={PhoneImage.img} />
     })
-    return <div className={Style.MobileView}>
-        <h1 style={{height:'100px', marginTop:'8%',fontSize:'48px'}}>Get The most from your NightLife<span>.</span></h1>
-        {PhoneImages}
+    return <div className={[Style.MobileView,'container-fluid']}>
+        <div className='justify-content-center mt-5 mb-3'>
+            <h1>Get The most from your NightLife<span>.</span></h1>
+        </div>
+        <div className='justify-content-center mb-2'>
+         {PhoneImages}
+        </div>
     </div> 
     
 }

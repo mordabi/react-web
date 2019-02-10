@@ -1,21 +1,26 @@
 .navItem{
-    margin-top:1%;
-    font-size: 110%;
-    
+    margin-top:4px;
+    font-size: 105%;
+    margin-right:40px; 
+    min-width: 109px;
+
 }
 .navItem a{
     text-decoration:none;
     color:white;
-    padding: 8% 15px;
-
+    padding:7% 0;
 }
-.navItem a.active{
+.active a{
     border:2px solid white;
     border-radius: 20px;
+    padding-left:8px;
+    padding-right:8px; 
 }
-.navItem a.unactive{
+.unactive a{
     text-decoration: none;
+    padding: 0
 }
+
 .navItem a:hover
 {
     text-decoration: none;
@@ -26,4 +31,12 @@
 .navItem a:visited,.navItem a:link{
     color: white;
     text-decoration: none;
+}
+@media (max-width:1177px)
+{
+    .navItem {
+        font-size: 90%;
+        margin-top:3%;
+        margin-right: 3%;
+    }
 }

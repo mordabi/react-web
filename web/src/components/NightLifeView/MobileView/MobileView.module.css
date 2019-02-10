@@ -9,3 +9,8 @@
 .MobileView span{
     color:palevioletred;
 }
+.MobileView h1{
+    height:100px;
+    margin-top:8%;
+    font-size:100%;
+}

@@ -4,7 +4,7 @@ import Bars from '../../Tools/Bars/Bars';
 import MapApi from '../../../containers/MapApi/MapApi'
 import Button from '../../Tools/Button/Button';
 
-const contain =['grid',Style.Places].join(' ');
+const contain =['container-fluid',Style.Places].join(' ');
 const PlacesView =(props)=>(
     <div className={contain}>
         <div className='row  mb-5'>
@@ -29,12 +29,12 @@ const PlacesView =(props)=>(
             </div>
         <div className='row justify-content-center'>
             <div className='col-12' id='Bars'>
-                <Bars rs/>
+                <Bars/>
             </div>
         </div>
         <div className='row justify-content-center mt-3 mb-5'>
-            <div className='col-6'>
-               <Button size='25px' radius='10px'>Find More</Button> 
+            <div className='col-6 col-xs-2'>
+               <Button  radius='10px'>Find More</Button> 
             </div>
         </div>
         </div>

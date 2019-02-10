@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Layout from './containers/Layout/Layout';
 import LNPage from './containers/LifeNightPage/LNPage';
+import 'react-count-animation/dist/count.min.css';
 
 
 /**

@@ -3,6 +3,11 @@
   font-family:'Roboto', sans-serif;
   height: 100%;
 }
-
+.container-fluid{
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-left:auto;
+  margin-right:auto;
+}
 
 

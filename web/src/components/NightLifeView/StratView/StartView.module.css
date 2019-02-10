@@ -11,7 +11,7 @@
 }
 .startView h1{
 font-family:'Roboto';
-font-size:101.15px;
+font-size:580%;
 margin-top:12%; 
 color:#ffffff;
 letter-spacing:0;
@@ -19,6 +19,7 @@ text-shadow:0 2px 3px rgba(0,0,0,0.50);
 };
 .startView span{
 text-align: center;
+color:white;
 }
 .Button{
     margin: 12% 0 1% 0;

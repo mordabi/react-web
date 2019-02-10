@@ -19,17 +19,25 @@
     height: 100%;
     width: 60%;
     text-align: center;
-    margin-right: 16%;
+    margin-right: 8%;
     position: relative;
     right: 5%;
+
 }
 
-.Logo {
+.Toolbar.Logo {
     height: 80%;
+    margin-left:-10px;
 }
 
-@media (max-width: 499px) {
+@media (max-width: 776px) {
     .DesktopOnly {
         display: none;
+    }
+}
+@media (max-width: 856px) {
+    .Toolbar nav {
+        width: 72%;
+        margin-right: 10%;
     }
 }

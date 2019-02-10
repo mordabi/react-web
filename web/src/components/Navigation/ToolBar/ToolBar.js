@@ -7,12 +7,17 @@ import Logo from "../../UI/Logo/Logo"
 const toolBar = (props)=>{
   
     return (
-        <header className={Style.Toolbar}>
-                <Logo/>
-            <nav className={Style.DesktopOnly}>
+        
+            <header className={Style.Toolbar}>
+            <div className='col-1'>
+                <Logo  clicked={props.clicked}/>
+            </div>                
+            <nav className={[Style.DesktopOnly,'col-8'].join(' ')}>
                 <NavItems pageNum={props.pageNum} pageClass={props.pageClass}/>
             </nav>
         </header>
+        
+        
     );
 } 
 

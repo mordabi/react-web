@@ -4,7 +4,7 @@
     border-radius: 50px;
     border: transparent;
     padding: 15px 60px;
-    
+    cursor: pointer;
     
 }
 .Button:active{
