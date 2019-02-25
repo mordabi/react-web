@@ -9,14 +9,11 @@ const bar = (props)=>(
                    <p>{props.title}</p>
                    <br/>
                    <div className='row'>
-                   <div className='col-7'><p id='address'>{props.address}</p></div>
-                   
-                   
-                   
-                </div>
-                <div className={[Style.Stars,'col-lg'].join(' ')}>
+                   <div className='col-7'><p id='address'>{props.address}</p></div> 
+                   </div>                  
+                   <div className={[Style.Stars,'col-lg'].join(' ')}>
                     <Stars rating={5-props.stars}/>
-                </div>
+                   </div>
             </div>
     </div>
 ) ;

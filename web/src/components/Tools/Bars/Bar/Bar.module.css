@@ -33,7 +33,6 @@
     position: absolute;
     bottom:-10%;
     left:41%;
-    
 }
 .Bar:focus img,
 .Bar:hover img{
@@ -53,5 +52,12 @@
         font-size: 60%;
     }
     
-
+    .Bar .Stars{
+        left:36%;
+    }
+}
+@media(max-width:600px){
+    .Bar .Stars{
+        display: none;
+    }
 }
